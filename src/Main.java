@@ -142,6 +142,17 @@ public class Main {
         float average = sum_of_grades/number_of_students;
         System.out.println("The average grade of "+number_of_students+" students is "+average );
 
+//Exercise - print X tripode
+
+        int levels =5;
+
+        for (int j=0; j <=levels; j++){
+            for (int k=1; k<=j; k++){
+                System.out.print("X");
+            }
+            System.out.println();
+        }
+
 
     }
 
